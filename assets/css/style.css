@@ -1,0 +1,12 @@
+
+:root {
+    --fonte-principal: 'Epilogue';
+    --branco: hsl(0, 0%, 98%);
+    --cinza-medio: hsl(0, 0%, 41%);
+    --preto: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+}
