@@ -1,4 +1,4 @@
-# Seção introdutoria com navegação suspensa
+# Seção introdutória com navegação suspensa
 Projeto para realizar uma seção introdutoria com navegação suspensa em HTML, CSS e JavaScript, responsiva para mobile (375px) e desktop (1440px)
 
 ## Índice
@@ -32,11 +32,11 @@ Os usuários devem ser capazes de:
 ## Minha caminhada
 
 - [x] Preparativos da pagina HTML e CSS para mobile
-- [] Barra de navegação
-- [] Layout versão mobile
-- [] Layout versão desktop
-- [] Menus de nagavegação
-- [] Elementos JavaScript
+- [ ] Barra de navegação
+- [ ] Layout versão mobile
+- [ ] Layout versão desktop
+- [ ] Menus de nagavegação
+- [ ] Elementos JavaScript
 
 ### Propriedades
 

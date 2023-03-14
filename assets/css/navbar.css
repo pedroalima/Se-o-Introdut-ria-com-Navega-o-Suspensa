@@ -1,0 +1,65 @@
+header {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem 1rem;
+}
+
+/* desabilita menu */
+.mobile__menu {
+    display: none;
+}
+
+.mobile__menu {
+    background: var(--branco);
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1.2rem;
+    width: 55%;
+    height: 100vh;
+}
+
+.mobile__container-menu {
+    text-align: right;
+}
+
+.mobile__menu-list {
+    padding: 2rem 0;
+}
+
+.mobile__menu-item {
+    padding: 0.7rem 0.5rem;
+}
+
+.tópicos{
+    color: var(--cinza-medio);
+    text-decoration: none;
+}
+
+.mobile__menu-botton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__botton-login {
+    padding: 0.6em 3.5em;
+
+}
+
+.menu__botton-register {
+    border: 1px solid var(--cinza-medio);
+    border-radius: 0.8rem;
+}
+
+.menu__link-login {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--cinza-medio);
+}
+

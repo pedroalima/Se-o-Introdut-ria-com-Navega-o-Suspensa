@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +18,62 @@
 </head>
 <body>
     <header>
-        <nav>
-            
+        <nav class="navbar">
+            <div class="nav__container-logo">
+                <h1 class="nav__logo">
+                    <img src="/assets/img/logo.svg" alt="Imagem da logo Snap" class="nav__logo-imagem">
+                </h1>
+            </div>
+            <div class="nav__container-menu">
+                <botton class="nav__menu-botton">
+                    <img src="/assets/img/icon-menu.svg" alt="Icone de menu hamburguer" class="nav__menu-imagem">
+                </botton>
+            </div>
         </nav>
+        <div class="mobile__menu">
+            <div class="mobile__container-menu">
+                <botton class="nav__menu-botton">
+                    <img src="/assets/img/icon-close-menu.svg" alt="Icone de fechamento de menu em 'X'" class="nav__menu-imagem">
+                </botton>
+            </div>
+            <ul class="mobile__menu-list">
+                <li class="mobile__menu-item">
+                    <span class="tópicos">Features</span>
+                    <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                </li>
+                <li class="mobile__menu-item">
+                    <span class="tópicos">Company</span>
+                    <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                </li>
+                <li class="mobile__menu-item">
+                    <a href="#" class="tópicos">Careers</a>
+                </li>
+                <li class="mobile__menu-item">
+                    <a href="#" class="tópicos">About</a>
+                </li>
+            </ul>
+            <div class="mobile__menu-botton">
+                <botton class="menu__botton-login">
+                    <a href="#" class="menu__link-login">Login</a>
+                </botton>
+                <botton class="menu__botton-login menu__botton-register">
+                    <a href="#"class="menu__link-login">Register</a>
+                </botton>
+            </div>
+        </div>
     </header>
     <main>
         <section>
-
+            
         </section>
     </main>
+<!--
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
+-->
 </body>
 </html>
