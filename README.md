@@ -24,15 +24,14 @@ Os usuários devem ser capazes de:
 ### Screenshots
 
 <html>
-    <img src="" width="300">
-    <img src="" width="300">
-    <img src="" width="820">
+    <img src="./assets/img/screenshot-mobile.png" width="300">
+    <img src="./assets/img/screenshot-mobile-menu.png" width="300">
 </html>
 
 ## Minha caminhada
 
 - [x] Preparativos da pagina HTML e CSS para mobile
-- [ ] Barra de navegação
+- [x] Barra de navegação
 - [ ] Layout versão mobile
 - [ ] Layout versão desktop
 - [ ] Menus de nagavegação
