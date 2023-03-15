@@ -1,0 +1,44 @@
+.introducao {
+    text-align: center;
+    padding-bottom: 15vh;
+}
+
+.introducao__imagem {
+    width: 100vw;
+}
+
+.introducao__container-conteudo {
+    margin: 3em 1em 4em;
+}
+
+.introducao__conteudo-titulo {
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.introducao__conteudo-descricao {
+    color: var(--cinza-medio);
+    font-size: 16px;
+    line-height: 27px;
+    margin: 1.5em 0 2.5em;
+}
+
+.introducao__conteudo-botao {
+    text-decoration: none;
+    color: var(--branco);
+    background: var(--preto);
+    padding: 0.8em 1.2em;
+    border-radius: 14px;
+}
+
+.introducao__container-clientes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.introducao__clientes-logo {
+    width: 19vw;
+}
