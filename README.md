@@ -32,7 +32,7 @@ Os usuários devem ser capazes de:
 
 - [x] Preparativos da pagina HTML e CSS para mobile
 - [x] Barra de navegação
-- [ ] Layout versão mobile
+- [x] Layout versão mobile
 - [ ] Layout versão desktop
 - [ ] Menus de nagavegação
 - [ ] Elementos JavaScript

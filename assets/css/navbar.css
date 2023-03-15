@@ -16,7 +16,7 @@ header {
 
 .mobile__menu {
     background: var(--branco);
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     padding: 1.2rem;
