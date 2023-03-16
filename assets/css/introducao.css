@@ -42,3 +42,56 @@
 .introducao__clientes-logo {
     width: 19vw;
 }
+
+@media screen and (min-width: 1440px) {
+    .introducao {
+        margin: 5vh 8vw 0vh;
+        display: grid;
+        grid-template-areas: 
+        "conteudo imagem"
+        "conteudo imagem"
+        "clientes imagem";
+        grid-template-columns: 48% 35%;
+        grid-template-rows: 38% 38% 10%;
+        column-gap: 8vw;
+        row-gap: 2rem;
+    }
+
+    .introducao__container-imagem {
+        grid-area: imagem;
+    }
+
+    .introducao__imagem {
+        width: 32vw;
+    }
+
+    .introducao__container-conteudo {
+        grid-area: conteudo;
+        text-align: left;
+        padding: 5vh 0;
+    }
+
+    .introducao__conteudo-titulo {
+        font-size: 82px;
+        
+    }
+
+    .introducao__conteudo-descricao {
+        font-size: 21px;
+        line-height: 34px;
+    }
+
+    .introducao__conteudo-botao {
+        font-size: 22px;
+        padding: 1em 1.5em;
+    }
+
+    .introducao__container-clientes {
+        grid-area: clientes;
+
+    }
+
+    .introducao__clientes-logo {
+        width: 7vw;
+    }
+}

@@ -24,6 +24,30 @@
                     <img src="/assets/img/logo.svg" alt="Imagem da logo Snap" class="nav__logo-imagem">
                 </h1>
             </div>
+            <ul class="nav__menu-list">
+                <li class="nav__menu-item">
+                    <span class="tópicos">Features</span>
+                    <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                </li>
+                <li class="nav__menu-item">
+                    <span class="tópicos">Company</span>
+                    <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                </li>
+                <li class="nav__menu-item">
+                    <a href="#" class="tópicos">Careers</a>
+                </li>
+                <li class="nav__menu-item">
+                    <a href="#" class="tópicos">About</a>
+                </li>
+            </ul>
+            <div class="nav__user-botton">
+                <botton class="menu__botton-login">
+                    <a href="#" class="menu__link-login">Login</a>
+                </botton>
+                <botton class="menu__botton-login menu__botton-register user__link-register">
+                    <a href="#"class="menu__link-login">Register</a>
+                </botton>
+            </div>
             <div class="nav__container-menu">
                 <botton class="nav__menu-botton">
                     <img src="/assets/img/icon-menu.svg" alt="Icone de menu hamburguer" class="nav__menu-imagem">
@@ -65,6 +89,7 @@
     <main>
         <section class="introducao">
             <picture class="introducao__container-imagem">
+                <source media="(min-width: 1440px)" srcset="/assets/img/image-hero-desktop.png">
                 <img src="/assets/img/image-hero-mobile.png" class="introducao__imagem" alt="Imagem de uma pessoa preta ao centro segurando um notebook, com simbolos geométricos em volta">
             </picture>
             <div class="introducao__container-conteudo">

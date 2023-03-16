@@ -9,6 +9,11 @@ header {
     padding: 1.5rem 1rem;
 }
 
+.nav__menu-list, 
+.nav__user-botton {
+    display: none;
+}
+
 /* desabilita menu */
 .mobile__menu {
     display: none;
@@ -63,3 +68,28 @@ header {
     color: var(--cinza-medio);
 }
 
+@media screen and (min-width: 1440px) {
+    .navbar {
+        padding: 2rem 3rem;
+        align-items: flex-start;
+    }
+    
+    .nav__container-menu {
+        display: none;
+    }
+    
+    .nav__menu-list {
+        display: flex;
+        justify-content: space-between;
+        width: 35vw;
+        margin-right: 20vw;
+    }
+
+    .nav__user-botton {
+        display: flex;
+    }
+
+    .user__link-register {
+        padding: .7em 1.5em;
+    }
+}
