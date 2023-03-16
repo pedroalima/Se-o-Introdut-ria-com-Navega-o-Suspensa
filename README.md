@@ -26,6 +26,7 @@ Os usuários devem ser capazes de:
 <html>
     <img src="./assets/img/screenshot-mobile.png" width="300">
     <img src="./assets/img/screenshot-mobile-menu.png" width="300">
+    <img src="./assets/img/screenshot-desktop.png" width="820">
 </html>
 
 ## Minha caminhada
@@ -33,9 +34,10 @@ Os usuários devem ser capazes de:
 - [x] Preparativos da pagina HTML e CSS para mobile
 - [x] Barra de navegação
 - [x] Layout versão mobile
-- [ ] Layout versão desktop
+- [x] Layout versão desktop
 - [ ] Menus de nagavegação
 - [ ] Elementos JavaScript
+- [ ] Estados de foco
 
 ### Propriedades
 
