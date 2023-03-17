@@ -24,9 +24,10 @@ Os usuários devem ser capazes de:
 ### Screenshots
 
 <html>
-    <img src="./assets/img/screenshot-mobile.png" width="300">
-    <img src="./assets/img/screenshot-mobile-menu.png" width="300">
-    <img src="./assets/img/screenshot-desktop.png" width="820">
+    <img src="./assets/img/screenshot-mobile.png" width="300px">
+    <img src="./assets/img/screenshot-mobile-menu.png" width="300px">
+    <img src="./assets/img/screenshot-mobile-menu2.png" width="300px">
+    <img src="./assets/img/screenshot-desktop.png" width="920px">
 </html>
 
 ## Minha caminhada
@@ -35,7 +36,7 @@ Os usuários devem ser capazes de:
 - [x] Barra de navegação
 - [x] Layout versão mobile
 - [x] Layout versão desktop
-- [ ] Menus de nagavegação
+- [x] Menus de nagavegação
 - [ ] Elementos JavaScript
 - [ ] Estados de foco
 
