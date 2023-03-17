@@ -49,26 +49,60 @@
                 </botton>
             </div>
             <div class="nav__container-menu">
-                <botton class="nav__menu-botton">
+                <botton class="nav__menu-botton" id="open-menu">
                     <img src="/assets/img/icon-menu.svg" alt="Icone de menu hamburguer" class="nav__menu-imagem">
                 </botton>
             </div>
         </nav>
-        <div class="mobile__menu">
+        <div class="fade hide"></div>
+        <div class="mobile__menu hide">
             <div class="mobile__container-menu">
-                <botton class="nav__menu-botton">
+                <botton class="nav__menu-botton" id="close-menu">
                     <img src="/assets/img/icon-close-menu.svg" alt="Icone de fechamento de menu em 'X'" class="nav__menu-imagem">
                 </botton>
             </div>
             <ul class="mobile__menu-list">
                 <li class="mobile__menu-item">
-                    <span class="tópicos">Features</span>
-                    <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                    <button class="submenu__button" id="feature">
+                        <span class="tópicos">Features</span>
+                        <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                    </button>
                 </li>
+                <ul class="submenu__feature-list" id="lista-feature">
+                    <li class="submenu__feature-item">
+                        <img src="/assets/img/icon-todo.svg" alt="icone de prancheta">
+                        <a href="#" class="tópicos subtopicos">Todo List</a>
+                    </li>
+                    <li class="submenu__feature-item">
+                        <img src="/assets/img/icon-calendar.svg" alt="icone de calendário">
+                        <a href="#" class="tópicos subtopicos">Calendar</a>
+                    </li>
+                    <li class="submenu__feature-item">
+                        <img src="/assets/img/icon-reminders.svg" alt="icone de sino">
+                        <a href="#" class="tópicos subtopicos">Reminders</a>
+                    </li>
+                    <li class="submenu__feature-item">
+                        <img src="/assets/img/icon-planning.svg" alt="icone de relógio">
+                        <a href="#" class="tópicos subtopicos">Plannig</a>
+                    </li>
+                </ul>
                 <li class="mobile__menu-item">
-                    <span class="tópicos">Company</span>
-                    <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                    <button class="submenu__button" id="company">
+                        <a href="#" class="tópicos">Company</a>
+                        <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                    </button>
                 </li>
+                <ul class="submenu__feature-list" id="lista-company">
+                    <li class="submenu__feature-item">
+                        <a href="#" class="tópicos subtopicos">History</a>
+                    </li>
+                    <li class="submenu__feature-item">
+                        <a href="#" class="tópicos subtopicos">Our Team</a>
+                    </li>
+                    <li class="submenu__feature-item">
+                        <a href="#" class="tópicos subtopicos">Blog</a>
+                    </li>
+                </ul>
                 <li class="mobile__menu-item">
                     <a href="#" class="tópicos">Careers</a>
                 </li>

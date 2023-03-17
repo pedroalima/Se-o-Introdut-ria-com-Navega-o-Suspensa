@@ -1,4 +1,4 @@
-header {
+body {
     position: relative;
 }
 
@@ -14,9 +14,21 @@ header {
     display: none;
 }
 
-/* desabilita menu */
-.mobile__menu {
-    display: none;
+.mobile__menu,
+.fade {
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
 }
 
 .mobile__menu {
@@ -27,23 +39,43 @@ header {
     padding: 1.2rem;
     width: 55%;
     height: 100vh;
+    z-index: 10;
 }
 
 .mobile__container-menu {
     text-align: right;
 }
 
-.mobile__menu-list {
-    padding: 2rem 0;
-}
-
 .mobile__menu-item {
     padding: 0.7rem 0.5rem;
+}
+
+.submenu__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    padding: 0;
 }
 
 .tópicos{
     color: var(--cinza-medio);
     text-decoration: none;
+    font-size: 16px;
+}
+
+.submenu__feature-list {
+    padding: 0.8em 0 0 1.5em;
+}
+
+.submenu__feature-item {
+    padding-bottom: 0.8em;
+}
+
+.subtopicos {
+    font-size: 15px;
+    padding-left: 0.5em;
 }
 
 .mobile__menu-botton {
@@ -67,6 +99,16 @@ header {
     text-decoration: none;
     color: var(--cinza-medio);
 }
+
+.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.off {
+    display: none;
+}
+
 
 @media screen and (min-width: 1440px) {
     .navbar {
