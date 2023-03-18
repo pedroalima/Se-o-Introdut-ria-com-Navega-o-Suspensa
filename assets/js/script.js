@@ -8,22 +8,38 @@ const toggleMenu = () => {
     fade.classList.toggle("hide");
 }
 
-[openMenuButton, closeMenuButton, fade].forEach((menus) => {
-    menus.addEventListener("click", () => toggleMenu())
+[openMenuButton, closeMenuButton, fade].forEach((elementos) => {
+    elementos.addEventListener("click", () => toggleMenu())
 })
 
-/*
 const featureButton = document.querySelector("#feature");
 const listaFeature = document.querySelector("#lista-feature");
 const companyButton = document.querySelector("#company");
 const listaCompany = document.querySelector("#lista-company");
 
-const toggleButtons = () => {
-    listaFeature.classList.toggle("off");
-    listaCompany.classList.toggle("off");
+
+function buttonSubmenuFeature() {
+    if (listaFeature.classList.contains("off")) {
+        listaFeature.classList.remove("off");
+    }
+    else {
+        listaFeature.classList.add("off");
+    }
 }
 
-[featureButton, companyButton].forEach((botoes) () => {
-    botoes.addEventListener("click", () => console.log(teste))
+featureButton.addEventListener("click", (evento) => {
+    buttonSubmenuFeature();
 })
-*/
+
+function buttonSubmenuCompany() {
+    if (listaCompany.classList.contains("off")) {
+        listaCompany.classList.remove("off");
+    }
+    else {
+        listaCompany.classList.add("off");
+    }
+}
+
+companyButton.addEventListener("click", (evento) => {
+    buttonSubmenuCompany();
+})
