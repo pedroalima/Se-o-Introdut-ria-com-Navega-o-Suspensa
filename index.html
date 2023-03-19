@@ -19,20 +19,65 @@
 <body>
     <header>
         <nav class="navbar">
+
+            <!-- Logo -->
             <div class="nav__container-logo">
                 <h1 class="nav__logo">
                     <img src="/assets/img/logo.svg" alt="Imagem da logo Snap" class="nav__logo-imagem">
                 </h1>
             </div>
+
+            <!-- Lista de itens do menu desktop-->
             <ul class="nav__menu-list">
+
+                <!-- Botão feature desktop-->
                 <li class="nav__menu-item">
-                    <span class="tópicos">Features</span>
-                    <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                    <button class="submenu__button" id="feature-desktop">
+                        <span class="tópicos">Features</span>
+                        <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                    </button>
                 </li>
+                <!-- Lista de itens do submenu feature desktop-->
+                <ul class="feature__list off" id="lista-feature-desktop"> 
+                    <li class="feature__item">
+                        <img src="/assets/img/icon-todo.svg" alt="" class="feature__icon">
+                        <a href="" class="feature__link">Todo list</a>
+                    </li>
+                    <li class="feature__item">
+                        <img src="/assets/img/icon-calendar.svg" alt="" class="feature__icon">
+                        <a href="" class="feature__link">Calendar</a>
+                    </li>
+                    <li class="feature__item">
+                        <img src="/assets/img/icon-reminders.svg" alt="" class="feature__icon">
+                        <a href="" class="feature__link">Redminders</a>
+                    </li>
+                    <li class="feature__item">
+                        <img src="/assets/img/icon-planning.svg" alt="" class="feature__icon">
+                        <a href="" class="feature__link">Planning</a>
+                    </li>
+                </ul>
+
+                <!-- Botão company desktop-->
                 <li class="nav__menu-item">
-                    <span class="tópicos">Company</span>
-                    <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                    <button class="submenu__button" id="company-desktop">
+                        <span class="tópicos">Company</span>
+                        <img src="/assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
+                    </button>
                 </li>
+                <!-- Lista de itens do submenu company desktop-->
+                <ul class="feature__list company__list off" id="lista-company-desktop">
+                    <li class="company__item">
+                        <a href="" class="company__link">History</a>
+                    </li>
+                    <li class="company__item">
+                        <a href="" class="company__link">Our Team</a>
+                    </li>
+                    <li class="company__item">
+                        <a href="" class="company__link">Blog</a>
+                    </li>
+                </ul>
+
+                <!-- Itens restantes do menu desktop-->
                 <li class="nav__menu-item">
                     <a href="#" class="tópicos">Careers</a>
                 </li>
@@ -40,6 +85,8 @@
                     <a href="#" class="tópicos">About</a>
                 </li>
             </ul>
+
+            <!-- Botões do usuário desktop-->
             <div class="nav__user-botton">
                 <botton class="menu__botton-login">
                     <a href="#" class="menu__link-login">Login</a>
@@ -48,26 +95,39 @@
                     <a href="#"class="menu__link-login">Register</a>
                 </botton>
             </div>
+
+            <!-- Botão do menu hamburguer mobile -->
             <div class="nav__container-menu">
                 <botton class="nav__menu-botton" id="open-menu">
                     <img src="/assets/img/icon-menu.svg" alt="Icone de menu hamburguer" class="nav__menu-imagem">
                 </botton>
             </div>
+
         </nav>
+
+        <!-- Sombra de desfoque do layout mobile ao abrir menu -->
         <div class="fade hide"></div>
+
+        <!-- Menu hamburguer mobile -->
         <div class="mobile__menu hide">
+            <!-- Botão de fechar Menu -->
             <div class="mobile__container-menu">
                 <botton class="nav__menu-botton" id="close-menu">
                     <img src="/assets/img/icon-close-menu.svg" alt="Icone de fechamento de menu em 'X'" class="nav__menu-imagem">
                 </botton>
             </div>
+
+            <!-- Lista do menu mobile -->
             <ul class="mobile__menu-list">
+
+                <!-- Botão feature mobile-->
                 <li class="mobile__menu-item">
                     <button class="submenu__button" id="feature">
                         <span class="tópicos">Features</span>
                         <img src="./assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
                     </button>
                 </li>
+                <!-- Lista de itens do submenu feature mobile-->
                 <ul class="submenu__feature-list off" id="lista-feature">
                     <li class="submenu__feature-item">
                         <img src="/assets/img/icon-todo.svg" alt="icone de prancheta">
@@ -86,12 +146,15 @@
                         <a href="#" class="tópicos subtopicos">Plannig</a>
                     </li>
                 </ul>
+
+                <!-- Botão company mobile-->
                 <li class="mobile__menu-item">
                     <button class="submenu__button" id="company">
                         <a href="#" class="tópicos">Company</a>
                         <img src="./assets/img/icon-arrow-down.svg" class="mobile__item-imagem" alt="icone de seta para cima">
                     </button>
                 </li>
+                <!-- Lista de itens do submenu company mobile-->
                 <ul class="submenu__feature-list off" id="lista-company">
                     <li class="submenu__feature-item">
                         <a href="#" class="tópicos subtopicos">History</a>
@@ -103,6 +166,8 @@
                         <a href="#" class="tópicos subtopicos">Blog</a>
                     </li>
                 </ul>
+
+                <!-- Itens restantes do menu mobile-->
                 <li class="mobile__menu-item">
                     <a href="#" class="tópicos">Careers</a>
                 </li>
@@ -110,6 +175,8 @@
                     <a href="#" class="tópicos">About</a>
                 </li>
             </ul>
+
+            <!-- Botões do usuário mobile-->
             <div class="mobile__menu-botton">
                 <botton class="menu__botton-login">
                     <a href="#" class="menu__link-login">Login</a>
@@ -120,17 +187,22 @@
             </div>
         </div>
     </header>
+
+
     <main>
         <section class="introducao">
+
             <picture class="introducao__container-imagem">
                 <source media="(min-width: 1440px)" srcset="/assets/img/image-hero-desktop.png">
                 <img src="/assets/img/image-hero-mobile.png" class="introducao__imagem" alt="Imagem de uma pessoa preta ao centro segurando um notebook, com simbolos geométricos em volta">
             </picture>
+
             <div class="introducao__container-conteudo">
                 <h2 class="introducao__conteudo-titulo">Make remote work</h2>
                 <p class="introducao__conteudo-descricao">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
                 <a href="#" class="introducao__conteudo-botao">Learn more</a>
             </div>
+
             <ul class="introducao__container-clientes">
                 <li><img src="/assets/img/client-databiz.svg" alt="Imagem da logo Databiz" class="introducao__clientes-logo"></li>
                 <li><img src="/assets/img/client-audiophile.svg" alt="Imagem da logo Audiophile" class="introducao__clientes-logo"></li>

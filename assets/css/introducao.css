@@ -94,4 +94,11 @@
     .introducao__clientes-logo {
         width: 7vw;
     }
+
+    .introducao__conteudo-botao:hover {
+        background: var(--branco);
+        border: 1px solid var(--preto);
+        color: var(--preto);
+        font-weight: 600;
+    }
 }

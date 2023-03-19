@@ -109,11 +109,10 @@ body {
     display: none;
 }
 
-
 @media screen and (min-width: 1440px) {
     .navbar {
         padding: 2rem 3rem;
-        align-items: flex-start;
+        align-items: center;
     }
     
     .nav__container-menu {
@@ -127,6 +126,33 @@ body {
         margin-right: 20vw;
     }
 
+    .tópicos {
+        color: var(--preto);
+        font-size: 18px;
+    }
+
+    .menu__link-login {
+        font-size: 18px;
+        color: var(--preto);
+    }
+
+    .menu__botton-register {
+        border: 2px solid var(--preto);
+    }
+
+    .nav__menu-item,
+    .menu__botton-login {
+        opacity: 0.7;
+    }
+
+    .menu__botton-login:hover {
+        opacity: 1;
+    }
+
+    .nav__menu-item:hover {
+        opacity: 1;
+    }
+
     .nav__user-botton {
         display: flex;
     }
@@ -134,4 +160,38 @@ body {
     .user__link-register {
         padding: .7em 1.5em;
     }
+
+    .nav__menu-list {
+        position: relative;
+    }
+
+   .feature__list {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       position: absolute;
+       top: 40px;
+       left: -80px;
+       padding: 1.5em;
+       background: #FFF;
+       border-radius: 14px;
+       box-shadow: 0 10px 2em -10px rgba(0, 0, 0, 0.3);
+       height: 10vw;
+    }
+
+   .feature__link, 
+   .company__link {
+        text-decoration: none;
+        color: var(--cinza-medio);
+    }
+
+   .company__list {
+    left: 160px;
+    height: 5vw;
+    }
+
+   .off {
+    display: none;
+    }
+
 }
